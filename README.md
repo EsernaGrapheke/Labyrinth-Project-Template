@@ -20,7 +20,7 @@ Consider the following conditions:
 - The route begins in the character `'E'` and ends in the character `'S'`.
 - If there is more than one path to take, we start checking the one to the left.
 - We move by changing a free space (`' '`) with a dot (`'.'`).
-- Each time we take a step, we must repeat the process of checking avaialable paths in every direction AND add 1 to the number of steps.
+- Each time we take a step, we must repeat the process of checking available paths in every direction AND add 1 to the number of steps.
 - Each time we have more than one path we must save that position (create a checkpoint there).
 - When reaching a Dead End, return to the last saved position.
 - When standing next to an exit `'S'` save the path and check if it is the optimum solution by comparing the number of steps.
