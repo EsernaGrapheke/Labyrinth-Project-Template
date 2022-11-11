@@ -23,11 +23,9 @@ Consider the following conditions:
 - Each time we take a step, we must repeat the process of checking avaialable paths in every direction AND add 1 to the number of steps.
 - Each time we have more than one path we must save that position (create a checkpoint there).
 - When reaching a Dead End, return to the last saved position.
-- When standing next to an exit `'S'` save the path and check if it is the optimal solution by comparing the number of steps.
+- When standing next to an exit `'S'` save the path and check if it is the optimum solution by comparing the number of steps.
 - Repeat the labyrinth until all paths have been tested.
 
 This is an example of the output we want:
 
-
-
-
+![ExampleOfResult](image_2022-11-10_235111021.png)
